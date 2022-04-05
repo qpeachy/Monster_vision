@@ -2,6 +2,8 @@
 
 function controleurPrincipal($action){
     $lesActions = array();
+    $lesActions["expo"] = "Exposition.php";
+    $lesActions["visite"] = "visite.php";
     $lesActions["connexion"] = "connexion.php";
     $lesActions["deconnexion"] = "deconnexion.php";
 
